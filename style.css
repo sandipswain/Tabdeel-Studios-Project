@@ -62,9 +62,8 @@ li {
 }
 
 .sec_3 {
-    padding: 3.5% 0%;
+    padding-top: 4%;
     background-color: rgba(100, 148, 237, 0.452);
-    ;
     margin: auto;
 }
 
@@ -79,10 +78,16 @@ li {
 
 .circle {
     background-color: rgba(100, 148, 237, 0.671);
-    width: 8%;
-    height: 120px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     margin: auto;
+}
+
+.cir_txt {
+    /* text-align: center; */
+    padding-left: 3%;
+    padding-bottom: 20%;
 }
 
 .contact {
@@ -124,10 +129,57 @@ footer {
 
 .icons img {
     width: 30px;
-    height: 3 0px;
+    /* height: 20px; */
     color: azure;
     padding-top: 10%;
     padding-left: 2%;
     align-items: center;
     margin: auto;
+}
+
+@media (max-width: 426px) {
+    .one {
+        background-color: rgba(10, 10, 70, 0.842);
+        width: 50%;
+        height: 100px;
+        margin: auto;
+    }
+
+    .one img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px 0px;
+        width: 20px;
+    }
+
+    .why {
+        padding-top: 2%;
+    }
+
+    .foot_text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .icons img {
+        padding-top: 2%;
+    }
+
+    .icons {
+        padding-left: 35%;
+    }
+
+    .cir_txt {
+        text-align: center;
+    }
+
+    .chn {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .h_txt {
+        text-align: center;
+    }
 }

@@ -16,19 +16,19 @@
     <nav class>
         <ul class="nav justify-content-center" style="background-color: rgb(18, 18, 73);">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Logo</a>
+                <a class="nav-link active chn" aria-current="page" href="#">Logo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link chn" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link chn" href="#">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">About Us</a>
+                <a class="nav-link chn" href="#about">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link chn" href="#con">Contact Us</a>
             </li>
         </ul>
     </nav>
@@ -46,9 +46,10 @@
             <img src="play.svg" alt="Play" id="play_btn">
         </div>
         <div class="col-sm-1"></div>
-        <div class="col-sm-4">
-            <div class="heading">Why Python?</div>
-            <p class="content">The python language is one of the most accessible programming languages available because
+        <div class="col-sm-4 why">
+            <div class="heading h_txt">Why Python?</div>
+            <p class="content h_txt">The python language is one of the most accessible programming languages available
+                because
                 it
                 has
                 simplified syntax and not complicated, which gives more emphasis on natural language. Due to its ease of
@@ -93,45 +94,58 @@
 
     <!-- Section 5 Circles-->
     <div class="row sec_5">
-        <div class="col-sm-2 circle"></div>
-        <div class="col-sm-2 circle"></div>
-        <div class="col-sm-2 circle"></div>
-        <div class="col-sm-2 circle"></div>
-        <div class="col-sm-2 circle"></div>
-        <div class="col-sm-2 circle"></div>
+        <div class="col-sm-2">
+            <div class="circle"></div>
+            <div class="cir_txt">Convinence is the key to working on any job</div>
+        </div>
+        <div class="col-sm-2">
+            <div class="circle"></div>
+            <div class="cir_txt">Silence is the best policy</div>
+        </div>
+        <div class="col-sm-2">
+            <div class="circle"></div>
+            <div class="cir_txt">All things come to those who wait</div>
+        </div>
+        <div class="col-sm-2">
+            <div class="circle"></div>
+            <div class="cir_txt">Failure is the pillar of success</div>
+        </div>
+        <div class="col-sm-2">
+            <div class="circle"></div>
+            <div class="cir_txt">Commit mistakes until you learn</div>
+        </div>
+        <div class="col-sm-2">
+            <div class="circle"></div>
+            <div class="cir_txt">Sometimes it's better to leave something alone.</div>
+        </div>
     </div>
 
-    <div class="row sec_4">
-        <div class="col-sm-2">Convinence is the key to working on any job</div>
-        <div class="col-sm-2">Silence is the best policy</div>
-        <div class="col-sm-2">All things come to those who wait</div>
-        <div class="col-sm-2">Failure is the pillar of success</div>
-        <div class="col-sm-2">Commit mistakes until you learn</div>
-        <div class="col-sm-2">Sometimes it's better to leave something alone.</div>
-    </div>
+
+
 
     <!-- Section 6 About Us and Contact Us -->
     <div class="row sec_3">
         <div class="col-sm-2"></div>
         <div class="col-sm-3">
-            <div class="heading contact">
+            <div class="heading contact" id="con">
                 Contact Us
             </div>
-            <div class="content contact">
+            <div class="content contact abt_txt">
                 Contact Us for a free trial of our quality services.
             </div>
-            <div class="content contact">
-                <a href="#" class="btn btn-lg active" role="button" aria-pressed="true"
-                    style="background-color: rgba(10, 10, 70, 0.842) ;color: azure;">Get in Touch </a>
+            <div class="content contact" style="padding-bottom: 2%;">
+                <a href="#" class="btn btn-lg active abt_txt" role="button" aria-pressed="true"
+                    style="background-color: rgba(10, 10, 70, 0.842) ;color: azure;">Get in Touch
+                </a>
             </div>
         </div>
         <div class="col-sm-2"></div>
         <div class="col-sm-3">
-            <div class="heading contact">
+            <div class="heading contact" id="about">
                 Reach Us
             </div>
             <div class="content top">
-                <p id="#loc_col"><br>
+                <p id="#loc_col" class="abt_txt"><br>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                         <path
